@@ -1,0 +1,61 @@
+/* ============================================================
+   ENTESAR · Design Tokens
+   Femme Fatale Creative — noir / feline / refined
+   ============================================================ */
+:root {
+  /* — Core palette (exact, from brand guide) — */
+  --noir:        #010000;
+  --noir-900:    #070706;
+  --noir-800:    #0e0d0c;   /* warm-dark elevated surface */
+  --noir-700:    #16140f;
+  --cream:       #e5ded4;
+  --cream-warm:  #fbf5e8;
+  --sage:        #607361;   /* signature accent — the pupil */
+  --sage-300:    #83a98d;   /* lighter sage (tagline) */
+  --sage-900:    #2c3730;
+  --taupe:       #9e9b94;
+  --plum:        #482b38;   /* femme-fatale accent */
+  --plum-700:    #5c3747;
+
+  /* — Semantic — */
+  --bg:            var(--noir);
+  --surface:       var(--noir-800);
+  --text:          var(--cream);
+  --text-dim:      var(--taupe);
+  --accent:        var(--sage);
+  --accent-bright: var(--sage-300);
+  --line:          rgba(229, 222, 212, .12);
+  --line-strong:   rgba(229, 222, 212, .22);
+
+  /* — Typography families — */
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body:    "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono:    "Space Mono", ui-monospace, "SFMono-Regular", monospace;
+  --font-script:  "Lavishly Yours", "Cormorant Garamond", cursive;
+
+  /* — Fluid type scale — */
+  --fs-eyebrow: clamp(.7rem, .66rem + .2vw, .82rem);
+  --fs-body:    clamp(1rem, .95rem + .25vw, 1.15rem);
+  --fs-lead:    clamp(1.15rem, 1rem + .8vw, 1.6rem);
+  --fs-h3:      clamp(1.5rem, 1.1rem + 1.8vw, 2.4rem);
+  --fs-h2:      clamp(2rem, 1.3rem + 3.4vw, 4.4rem);
+  --fs-h1:      clamp(3rem, 1.4rem + 7.5vw, 9rem);
+  --fs-display: clamp(4.5rem, 1rem + 16vw, 18rem);
+
+  /* — Layout — */
+  --gutter:      clamp(1.25rem, 1rem + 2vw, 3.5rem);
+  --maxw:        1640px;
+  --section-pad: clamp(6rem, 4rem + 10vw, 14rem);
+
+  /* — Motion — */
+  --e-expo:  cubic-bezier(.16, 1, .3, 1);
+  --e-power: cubic-bezier(.83, 0, .17, 1);
+  --e-soft:  cubic-bezier(.33, 1, .68, 1);
+  --d-fast: .4s;
+  --d-med:  .8s;
+  --d-slow: 1.4s;
+
+  /* — FX — */
+  --grain-opacity: .05;
+  --eye-glow: 0 0 60px rgba(96, 115, 97, .28);
+}

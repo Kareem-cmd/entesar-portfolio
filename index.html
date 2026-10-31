@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Entesar Ahmed — Brand &amp; Visual Identity Designer</title>
+  <meta name="description" content="Entesar Ahmed — Brand &amp; Visual Identity Designer. Designed by instinct. Built in the dark, designed to be remembered." />
+  <link rel="icon" href="assets/logo/eye-dark.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Inter:wght@300;400;500&family=Space+Mono:wght@400;700&family=Syne:wght@300;400;500;600&family=Lavishly+Yours&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <script>document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js');</script>
+  <script type="importmap">
+  {
+    "imports": {
+      "gsap": "https://esm.sh/gsap@3.13.0",
+      "gsap/ScrollTrigger": "https://esm.sh/gsap@3.13.0/ScrollTrigger",
+      "lenis": "https://esm.sh/lenis@1.1.20",
+      "ogl": "https://esm.sh/ogl@1.0.11"
+    }
+  }
+  </script>
+  <meta name="theme-color" content="#010000" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Entesar Ahmed — Brand &amp; Visual Identity Designer" />
+  <meta property="og:description" content="Brand identity, social design and visual direction by Entesar Ahmed." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="css/refinements.css" />
+  <script src="js/site.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__pupil"></span></div>
+
+  <!-- glassy edge-warp filter (applied on hover only — stays light) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="holoWarp" x="-8%" y="-8%" width="116%" height="116%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.009 0.014" numOctaves="2" seed="7" result="n" />
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="14" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </svg>
+
+  <div id="preloader" aria-hidden="true">
+    <p class="preloader__msg">Begins in the dark</p>
+    <span class="count">000</span>
+  </div>
+
+  <header class="nav">
+    <nav class="nav__group nav__group--left" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="about.html">About</a>
+    </nav>
+    <a class="nav__brand" href="#top">
+      <img class="nav__mark" src="assets/logo/eye-dark.png" alt="" />
+      <span>Entesar</span>
+    </a>
+    <nav class="nav__group nav__group--right" aria-label="Secondary">
+      <a href="playground.html">Playground</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO · WebGL cat ============ -->
+    <section class="hero" id="top">
+      <div id="webgl" class="hero__webgl" aria-hidden="true"></div>
+      <div class="hero__intro">
+        <h1>Entesar Ahmed</h1>
+        <p>Brand &amp; Visual Identity Designer</p>
+        <div class="hero__actions"><a href="#work">Explore the work <span aria-hidden="true">↘</span></a><a href="#contact">Start a conversation <span aria-hidden="true">↗</span></a></div>
+      </div>
+
+      <div class="hud">
+        <div class="hud__item hud__ml" data-hud>
+          <span class="line line--bright" id="hud-clock">--:-- --</span>
+          <span class="line" id="hud-place">Cairo · Egypt</span>
+          <span class="line" id="hud-weather">— · —</span>
+        </div>
+
+        <div class="hud__item hud__mr" data-hud>
+          <span class="line scramble" data-final="Watching from">Watching from</span>
+          <span class="line line--bright scramble" data-final="the dark">the dark</span>
+        </div>
+
+        <div class="hud__item hud__bl" data-hud>
+          <button class="toggle" id="shift-toggle" type="button" aria-pressed="false" data-cursor>
+            <span class="toggle__track"><span class="toggle__dot"></span></span>
+            <span class="line">Stare</span>
+          </button>
+        </div>
+
+        <div class="hud__item hud__br" data-hud>
+          
+          
+        </div>
+      </div>
+
+      <div class="hero__scroll" data-hud aria-hidden="true">
+        <span class="line">Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ============ BRAND WORDMARK ============ -->
+    <section class="wordmark-feature" id="brand">
+      <span class="eyebrow" data-reveal>The Mark</span>
+      <img class="wordmark-feature__logo" src="assets/logo/wordmark-text.png" alt="Entesar" data-reveal />
+      <p class="wordmark-feature__tag" data-reveal>Femme Fatale Creative — designed by instinct</p>
+    </section>
+
+    <!-- ============ MANIFESTO ============ -->
+    <section class="manifesto" id="intro">
+      <p class="manifesto__text" data-reveal>
+        Entesar's visual world begins in the <em>dark</em>. Not as emptiness — but as a space for focus, mystery, and instinct.
+      </p>
+      <p class="manifesto__sub" data-reveal>
+        Inspired by the quiet power of black cats and the confidence of femme-fatale presence, the brand becomes a visual identity with a sharp gaze and soft control. It does not shout. It watches, understands, and strikes with intention.
+      </p>
+    </section>
+
+    <!-- ============ SELECTED WORKS (masonry) ============ -->
+    <section class="works" id="work">
+      <header class="section-head">
+        <span class="eyebrow" data-reveal>Selected Works</span>
+        <h2 class="section-title" data-reveal>Identities <em>built in the dark.</em></h2>
+      </header>
+      <p class="projects-status" role="status" hidden></p>
+      <div class="works__list">
+        <a class="work work-row" href="projects/arkan.html" data-slug="arkan" data-cover="assets/works/arkan.jpg" data-reveal data-cursor>
+          <span class="work-row__idx">01</span>
+          <img class="work-row__cover" src="assets/works/arkan.jpg" alt="" loading="lazy" decoding="async" width="600" height="450" />
+          <span class="work-row__name">Arkan</span>
+          <span class="work-row__cat">Real Estate · Identity</span>
+          <span class="work__count" aria-hidden="true"></span>
+        </a>
+        <a class="work work-row" href="projects/gym-glow.html" data-slug="gym-glow" data-cover="assets/works/gym-glow.jpg" data-reveal data-cursor>
+          <span class="work-row__idx">02</span>
+          <img class="work-row__cover" src="assets/works/gym-glow.jpg" alt="" loading="lazy" decoding="async" width="600" height="450" />
+          <span class="work-row__name">Gym Glow</span>
+          <span class="work-row__cat">Fitness · Identity &amp; Social</span>
+          <span class="work__count" aria-hidden="true"></span>
+        </a>
+        <a class="work work-row" href="projects/chick.html" data-slug="chick" data-cover="assets/works/chick.jpg" data-reveal data-cursor>
+          <span class="work-row__idx">03</span>
+          <img class="work-row__cover" src="assets/works/chick.jpg" alt="" loading="lazy" decoding="async" width="600" height="450" />
+          <span class="work-row__name">Chick</span>
+          <span class="work-row__cat">Fast Food · Social</span>
+          <span class="work__count" aria-hidden="true"></span>
+        </a>
+        <a class="work work-row" href="projects/sera.html" data-slug="sera" data-cover="assets/works/sera.jpg" data-reveal data-cursor>
+          <span class="work-row__idx">04</span>
+          <img class="work-row__cover" src="assets/works/sera.jpg" alt="" loading="lazy" decoding="async" width="600" height="450" />
+          <span class="work-row__name">Sera</span>
+          <span class="work-row__cat">Furniture · Social</span>
+          <span class="work__count" aria-hidden="true"></span>
+        </a>
+        <a class="work work-row" href="projects/ghazy.html" data-slug="ghazy" data-cover="assets/works/ghazy.jpg" data-reveal data-cursor>
+          <span class="work-row__idx">05</span>
+          <img class="work-row__cover" src="assets/works/ghazy.jpg" alt="" loading="lazy" decoding="async" width="600" height="450" />
+          <span class="work-row__name">Ghazy</span>
+          <span class="work-row__cat">Kids' Fashion · Social</span>
+          <span class="work__count" aria-hidden="true"></span>
+        </a>
+        <a class="work work-row" href="projects/albaida.html" data-slug="albaida" data-cover="assets/works/albaida.jpg" data-reveal data-cursor>
+          <span class="work-row__idx">06</span>
+          <img class="work-row__cover" src="assets/works/albaida.jpg" alt="" loading="lazy" decoding="async" width="600" height="450" />
+          <span class="work-row__name">Albaïda</span>
+          <span class="work-row__cat">Natural Products · E-commerce</span>
+          <span class="work__count" aria-hidden="true"></span>
+        </a>
+        <a class="work work-row" href="projects/earthy-center.html" data-slug="earthy-center" data-cover="assets/works/earthy-center.jpg" data-reveal data-cursor>
+          <span class="work-row__idx">07</span>
+          <img class="work-row__cover" src="assets/works/earthy-center.jpg" alt="" loading="lazy" decoding="async" width="600" height="450" />
+          <span class="work-row__name">Earthy Center</span>
+          <span class="work-row__cat">Nutrition · Identity</span>
+          <span class="work__count" aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="work-preview" aria-hidden="true"><img alt="" /></div>
+    </section>
+
+    <!-- ============ STUDIO ============ -->
+    <section class="studio" id="studio">
+      <span class="eyebrow" data-reveal>The Studio</span>
+      <p class="studio__lead" data-reveal>She does not chase trends. She studies the brand, senses its character, then creates a system that feels natural, memorable, and alive.</p>
+      <div class="studio__grid">
+        <div data-reveal><h3>Instinct</h3><p>Designed by instinct, then refined with strategy. Every choice driven by emotion and character — never decoration.</p></div>
+        <div data-reveal><h3>The Gaze</h3><p>The cat eye is observation made visible — the ability to notice what others miss, and to strike with intention.</p></div>
+        <div data-reveal><h3>Silent Power</h3><p>Elegant, but never fragile. Feminine, but never soft. Mysterious, but always clear.</p></div>
+      </div>
+      <ul class="studio__tags" data-reveal>
+        <li>Mysterious</li><li>Elegant</li><li>Instinctive</li><li>Sharp</li><li>Magnetic</li><li>Feminine</li><li>Strategic</li><li>Noir</li><li>Refined</li><li>Cinematic</li><li>Dark Luxury</li><li>Feline Energy</li>
+      </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <span class="eyebrow" data-reveal>Contact</span>
+      <h2 class="contact__title" data-reveal>For brands that do not need <em>to shout</em> to be seen.</h2>
+      <a class="contact__mail" href="mailto:hello@entesar.studio" data-reveal data-cursor>hello@entesar.studio</a>
+      <div class="contact__lines" data-reveal>
+        <a class="contact__phone" href="tel:+201094895101" data-cursor>+20 109 489 5101</a>
+        <a class="contact__wa" href="https://wa.me/201094895101?text=Hello%20Entesar%20%E2%80%94%20I%E2%80%99d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener" data-cursor>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.78-1.31l-.34-.2-3.55.93.95-3.46-.22-.36a9.39 9.39 0 0 1-1.44-5.01c0-5.19 4.23-9.41 9.43-9.41 2.52 0 4.88.98 6.66 2.76a9.34 9.34 0 0 1 2.76 6.66c0 5.19-4.23 9.41-9.42 9.41zm8.02-17.43A11.32 11.32 0 0 0 12.04.75C5.8.75.73 5.82.73 12.05c0 1.99.52 3.94 1.51 5.65L.63 23.5l5.93-1.56a11.3 11.3 0 0 0 5.48 1.4h.01c6.23 0 11.3-5.07 11.31-11.3 0-3.02-1.18-5.86-3.3-8z"/></svg>
+          WhatsApp
+        </a>
+      </div>
+      <div class="contact__socials" data-reveal>
+        
+        
+        
+      </div>
+    </section>
+
+    <footer class="foot">
+      <img class="foot__logo" src="assets/logo/wordmark-clean.png" alt="Entesar — Femme Fatale Creative" data-reveal />
+      <div class="foot__lines" data-reveal>
+        <span class="eyebrow">© 2026 Entesar Ahmed</span>
+        <span class="eyebrow foot__tag">Femme Fatale Creative</span>
+        <span class="eyebrow">Designed by instinct.</span>
+      </div>
+    </footer>
+  </main>
+
+  <!-- floating WhatsApp -->
+  <a class="wa-fab" href="https://wa.me/201094895101?text=Hello%20Entesar%20%E2%80%94%20I%E2%80%99d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" data-cursor>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.22 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.4 9.4 0 0 1-4.78-1.31l-.34-.2-3.55.93.95-3.46-.22-.36a9.39 9.39 0 0 1-1.44-5.01c0-5.19 4.23-9.41 9.43-9.41 2.52 0 4.88.98 6.66 2.76a9.34 9.34 0 0 1 2.76 6.66c0 5.19-4.23 9.41-9.42 9.41zm8.02-17.43A11.32 11.32 0 0 0 12.04.75C5.8.75.73 5.82.73 12.05c0 1.99.52 3.94 1.51 5.65L.63 23.5l5.93-1.56a11.3 11.3 0 0 0 5.48 1.4h.01c6.23 0 11.3-5.07 11.31-11.3 0-3.02-1.18-5.86-3.3-8z"/></svg>
+  </a>
+
+  <!-- ============ Holographic project case-study ============ -->
+  <div class="pmodal" id="project-modal" aria-hidden="true">
+    <div class="pmodal__scrim" data-cursor></div>
+    <div class="pmodal__panel" role="dialog" aria-modal="true" aria-labelledby="project-title">
+      <span class="pmodal__grid" aria-hidden="true"></span>
+      <span class="pmodal__scan" aria-hidden="true"></span>
+      <header class="pmodal__head">
+        <div class="pmodal__titles">
+          <span class="eyebrow pmodal__cat"></span>
+          <h2 id="project-title" class="pmodal__name"></h2>
+        </div>
+        <button class="pmodal__close" type="button" aria-label="Close" data-cursor>
+          <span></span><span></span>
+        </button>
+      </header>
+      <p class="pmodal__summary" hidden></p><div class="pmodal__stage" tabindex="0" role="region" aria-label="Project images. Use left and right arrow keys to explore."></div>
+      <footer class="pmodal__foot">
+        <span class="eyebrow"><button type="button" class="gallery-prev" aria-label="Previous image">←</button> <button type="button" class="gallery-next" aria-label="Next image">→</button> <a class="project-page" href="#work">Open full project ↗</a></span>
+        <span class="eyebrow pmodal__brand">Entesar — Femme Fatale Creative</span>
+      </footer>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

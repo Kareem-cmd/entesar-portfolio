@@ -1,0 +1,23 @@
+<svg class="cat-eye" viewBox="0 0 240 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Entesar cat-eye mark">
+  <defs>
+    <linearGradient id="ee-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf5e8"/>
+      <stop offset=".5" stop-color="#cfc8bb"/>
+      <stop offset="1" stop-color="#8d897f"/>
+    </linearGradient>
+    <linearGradient id="ee-sage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9db89f"/>
+      <stop offset=".5" stop-color="#607361"/>
+      <stop offset="1" stop-color="#2c3730"/>
+    </linearGradient>
+    <radialGradient id="ee-iris" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#83a98d" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#83a98d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse class="aura" cx="120" cy="58" rx="74" ry="36" fill="url(#ee-iris)"/>
+  <path class="eye-shape" d="M8,62 C60,26 160,22 232,42 C165,74 85,96 8,62 Z"
+        fill="none" stroke="url(#ee-metal)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path id="pupil" d="M120,28 C133,46 133,66 120,86 C107,66 107,46 120,28 Z" fill="url(#ee-sage)"/>
+  <ellipse class="glint" cx="115" cy="45" rx="2.4" ry="6" fill="#fbf5e8" opacity=".85"/>
+</svg>

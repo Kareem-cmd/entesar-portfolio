@@ -1,0 +1,231 @@
+/* ============================================================
+   ENTESAR · Playground — masonry archive
+   Links after tokens.css + base.css. Vars only, no hard colors.
+   ============================================================ */
+
+/* page-load fade (JS removes .is-loading once mounted) */
+.pg {
+  opacity: 1;
+  transition: opacity 1.2s var(--e-expo);
+}
+.js .pg { opacity: 0; }
+.js .pg.is-ready { opacity: 1; }
+
+/* ------------------------------------------------------------
+   Intro
+   ------------------------------------------------------------ */
+.pg__intro {
+  padding-top: clamp(8rem, 6rem + 10vw, 14rem);
+  padding-bottom: clamp(3rem, 2rem + 4vw, 6rem);
+  max-width: min(var(--maxw), 1100px);
+}
+.pg__eyebrow { margin-bottom: clamp(1.4rem, 1rem + 2vw, 2.4rem); }
+
+.pg__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--fs-h1);
+  line-height: .9;
+  letter-spacing: -.02em;
+  color: var(--cream);
+  margin-bottom: clamp(1.6rem, 1.2rem + 2vw, 2.8rem);
+}
+.pg__title-line { display: block; }
+.pg__title em {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--accent-bright);
+}
+
+.pg__lede {
+  max-width: 46ch;
+  font-size: var(--fs-lead);
+  font-weight: 300;
+  line-height: 1.45;
+  color: var(--cream);
+  margin-bottom: clamp(1.4rem, 1rem + 2vw, 2.4rem);
+}
+.pg__count { color: var(--text-dim); }
+
+/* ------------------------------------------------------------
+   Gallery + masonry (CSS multi-column)
+   ------------------------------------------------------------ */
+.pg__gallery {
+  padding-inline: var(--gutter);
+  padding-bottom: clamp(4rem, 3rem + 6vw, 9rem);
+}
+/* explicit flex columns so each can stagger + parallax (yutaabe feel) */
+.pg__grid {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(.6rem, .4rem + .8vw, 1.1rem);
+  max-width: var(--maxw);
+  margin-inline: auto;
+}
+.pg__col {
+  flex: 1 1 0; min-width: 0;
+  display: flex; flex-direction: column;
+  gap: clamp(.6rem, .4rem + .8vw, 1.1rem);
+  will-change: transform;
+  transition: filter .2s linear;
+}
+/* motion blur while flicking fast */
+.pg__grid.is-fast .pg__col { filter: blur(1.4px); }
+/* staggered column starts — the offset, non-grid look */
+.pg__col:nth-child(2) { margin-top: clamp(2.5rem, 7vw, 7rem); }
+.pg__col:nth-child(3) { margin-top: clamp(1rem, 3vw, 3.2rem); }
+.pg__col:nth-child(4) { margin-top: clamp(4rem, 11vw, 10rem); }
+
+.pg__loading {
+  color: var(--text-dim);
+  padding: 4rem 0;
+}
+
+/* — item — */
+.pg__item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: var(--noir-900);
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition:
+    filter .5s var(--e-expo),
+    opacity .5s var(--e-expo),
+    border-color .5s var(--e-expo),
+    transform .6s var(--e-expo);
+}
+.pg__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* default state: slightly recessed */
+  filter: brightness(.82) saturate(.95);
+  transition: filter .6s var(--e-expo), transform .9s var(--e-expo);
+  will-change: filter;
+}
+
+/* hairline appears on the item that is in focus */
+.pg__item.is-focus {
+  border-color: rgba(96, 115, 97, .55);   /* sage hairline */
+}
+.pg__item.is-focus img {
+  filter: brightness(1.05) saturate(1.02);
+  transform: scale(1.015);
+}
+
+/* dimmed siblings when grid is in focus mode */
+.pg__grid.is-dim .pg__item:not(.is-focus) {
+  opacity: .55;
+}
+.pg__grid.is-dim .pg__item:not(.is-focus) img {
+  filter: brightness(.5) saturate(.8) blur(2px);
+}
+
+/* glass sheen sweeping across the focused frame */
+.pg__item::before {
+  content: ""; position: absolute; inset: 0; z-index: 3; pointer-events: none;
+  background: linear-gradient(120deg, transparent 35%, rgba(229, 222, 212, .14) 48%, rgba(255, 255, 255, .06) 51%, transparent 64%);
+  transform: translateX(-26%); opacity: 0; mix-blend-mode: screen;
+  transition: transform 1s var(--e-expo), opacity .5s var(--e-expo);
+}
+.pg__item.is-focus::before { opacity: 1; transform: translateX(26%); }
+
+/* tiny meta tag revealed on focus (caption) */
+.pg__item-tag {
+  position: absolute;
+  left: 0; bottom: 0;
+  padding: .5rem .7rem;
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--cream);
+  background: linear-gradient(0deg, rgba(1,0,0,.72), rgba(1,0,0,0));
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity .45s var(--e-expo), transform .45s var(--e-expo);
+  pointer-events: none;
+}
+.pg__item.is-focus .pg__item-tag { opacity: 1; transform: none; }
+
+/* reduced-motion / no-JS fallback: show everything plainly */
+.no-js .pg__item img,
+.no-js .pg__grid .pg__item { filter: none; opacity: 1; }
+
+/* ------------------------------------------------------------
+   Closing
+   ------------------------------------------------------------ */
+.pg__end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1rem, .6rem + 1.4vw, 1.8rem);
+  text-align: center;
+  padding-top: clamp(4rem, 3rem + 5vw, 8rem);
+  padding-bottom: clamp(7rem, 5rem + 8vw, 12rem);
+}
+.pg__end-line {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--fs-h3);
+  color: var(--cream);
+}
+
+/* ------------------------------------------------------------
+   Sticky corner HUD (bottom-left)
+   ------------------------------------------------------------ */
+.pg__hud {
+  position: fixed;
+  left: var(--gutter);
+  bottom: clamp(1.1rem, .8rem + 1vw, 1.8rem);
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  max-width: min(60vw, 30rem);
+  mix-blend-mode: difference;   /* stays legible over any frame */
+}
+.pg__hud-mark {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: clamp(.78rem, .7rem + .4vw, .95rem);
+  letter-spacing: .26em;
+  text-transform: uppercase;
+  color: var(--cream);
+}
+.pg__hud-sub { color: var(--cream); opacity: .7; }
+
+@media (max-width: 700px) {
+  .pg__hud-sub { display: none; }
+}
+
+/* ------------------------------------------------------------
+   Scramble HUD (under nav, right)
+   ------------------------------------------------------------ */
+.pg__scramble {
+  position: fixed;
+  top: clamp(4.4rem, 3.6rem + 2vw, 5.6rem);
+  right: var(--gutter);
+  z-index: 900;
+  color: var(--text-dim);
+  font-size: .68rem;
+  letter-spacing: .3em;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+@media (max-width: 760px) {
+  .pg__scramble { display: none; }
+}
+
+/* ------------------------------------------------------------
+   Reduced motion
+   ------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  .js .pg { opacity: 1; }
+  .pg__item, .pg__item img { transition: none; transform: none; }
+  .pg__item img { filter: brightness(.9) saturate(.97); }
+  .pg__grid.is-dim .pg__item:not(.is-focus) { opacity: 1; }
+  .pg__grid.is-dim .pg__item:not(.is-focus) img { filter: brightness(.9); }
+  .pg__scramble { display: none; }
+}
