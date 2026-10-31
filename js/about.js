@@ -174,25 +174,6 @@ if (reduced) {
 /* ============================================================
    Custom cursor — the pupil that watches (hover + fine pointer only)
    ============================================================ */
-const cursor = document.querySelector(".cursor");
-if (cursor && window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
-  const xTo = gsap.quickTo(cursor, "x", { duration: 0.5, ease: "power3" });
-  const yTo = gsap.quickTo(cursor, "y", { duration: 0.5, ease: "power3" });
-  window.addEventListener(
-    "pointermove",
-    (e) => {
-      document.documentElement.classList.add("has-cursor"); cursor.classList.add("is-active");
-      xTo(e.clientX);
-      yTo(e.clientY);
-    },
-    { passive: true }
-  );
-  document.querySelectorAll("a, button, [data-cursor]").forEach((el) => {
-    el.addEventListener("pointerenter", () => cursor.classList.add("is-hover"));
-    el.addEventListener("pointerleave", () => cursor.classList.remove("is-hover"));
-  });
-}
-
 /* ============================================================
    Refresh ScrollTrigger after fonts load (layout shift safety)
    ============================================================ */

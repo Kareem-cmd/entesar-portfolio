@@ -30,10 +30,8 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  body { cursor: none; }
-  a, button { cursor: none; }
-}
+body { cursor: auto; }
+a, button { cursor: pointer; }
 
 ::selection { background: var(--accent); color: var(--noir); }
 

@@ -162,37 +162,6 @@ function initHoverFocus(items) {
 /* ------------------------------------------------------------
    6 · Custom cursor — quickTo follower
    ------------------------------------------------------------ */
-function initCursor() {
-  const cursor = $('.cursor');
-  if (!cursor || !FINE) return;
-
-  const xTo = gsap.quickTo(cursor, 'x', { duration: 0.45, ease: 'power3' });
-  const yTo = gsap.quickTo(cursor, 'y', { duration: 0.45, ease: 'power3' });
-
-  let active = false;
-  window.addEventListener(
-    'pointermove',
-    (e) => {
-      if (!active) {
-        active = true;
-        document.documentElement.classList.add('has-cursor'); cursor.classList.add('is-active');
-      }
-      xTo(e.clientX);
-      yTo(e.clientY);
-    },
-    { passive: true }
-  );
-
-  // hover state over any image or link
-  const hoverTargets = 'a, .pg__item';
-  document.addEventListener('pointerover', (e) => {
-    if (e.target.closest(hoverTargets)) cursor.classList.add('is-hover');
-  });
-  document.addEventListener('pointerout', (e) => {
-    if (e.target.closest(hoverTargets)) cursor.classList.remove('is-hover');
-  });
-}
-
 /* ------------------------------------------------------------
    7 · Scramble HUD — resolves to DESIGNED BY INSTINCT
    ------------------------------------------------------------ */
@@ -239,7 +208,7 @@ function initScramble() {
    ------------------------------------------------------------ */
 async function boot() {
   // cursor + scramble can start immediately
-  initCursor();
+
   initScramble();
 
   const lenis = initLenis();

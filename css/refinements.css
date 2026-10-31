@@ -1,7 +1,9 @@
 /* Preserve the noir, cream and sage identity. */
 [hidden] { display:none !important; }
 html { scroll-padding-top:7rem; scrollbar-color:var(--sage) var(--noir-800); }
-body, a, button { cursor:auto; }
+body { cursor:auto; }
+a, button { cursor:pointer; }
+.cursor { display:none !important; }
 button { font:inherit; color:inherit; }
 a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline:2px solid var(--accent-bright); outline-offset:6px; }
 .skip-link { position:fixed; top:.6rem; left:1rem; z-index:20000; padding:.8rem 1rem; background:var(--cream); color:var(--noir); transform:translateY(-180%); }
@@ -75,9 +77,7 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline:2px so
  .pg__grid:not(:has(.pg__col)), .pg__grid.archive-static { grid-template-columns:repeat(2,minmax(0,1fr)); }
  .contact__mail { overflow-wrap:anywhere; }
 }
-@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
- .has-cursor body, .has-cursor a, .has-cursor button { cursor:none; }
-}
+
 @media (prefers-reduced-motion:reduce) {
  .cursor { display:none; }
  .holo:hover { transform:none; filter:none; }
