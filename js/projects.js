@@ -26,6 +26,7 @@ export function initProjects() {
    stage.replaceChildren();
    for(const [i,src] of p.images.entries()){
     const figure=document.createElement('figure');figure.className='holo';const img=document.createElement('img');
+    const size=p.dimensions?.[src];if(size){img.width=size[0];img.height=size[1];}
     img.src=src;img.alt=`${p.name} — design ${i+1} of ${p.images.length}`;img.loading=i?'lazy':'eager';img.decoding='async';img.draggable=false;
     img.addEventListener('error',()=>{const note=document.createElement('figcaption');note.textContent=`Image ${i+1} could not load. `;const retry=document.createElement('button');retry.type='button';retry.textContent='Retry image';retry.onclick=()=>{note.remove();img.src=src;};note.append(retry);figure.append(note);});
     figure.append(img);stage.append(figure);

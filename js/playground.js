@@ -29,7 +29,7 @@ async function loadImages() {
 
   // build per-project queues of {src, name, cat}
   const queues = projects.map((p) =>
-    (p.images || []).map((src) => ({ src, name: p.name, cat: p.cat, slug: p.slug }))
+    (p.images || []).map((src) => ({ src, name: p.name, cat: p.cat, slug: p.slug, size: p.dimensions?.[src] }))
   );
 
   // round-robin: take one from each project per pass so columns stay varied
@@ -71,6 +71,7 @@ function buildGrid(items) {
     fig.className = 'pg__item';
 
     const img = document.createElement('img');
+    if (it.size) { img.width = it.size[0]; img.height = it.size[1]; }
     img.src = it.src;
     img.alt = `${it.name} — visual ${String(i + 1).padStart(3, '0')}`;
     img.loading = 'lazy';

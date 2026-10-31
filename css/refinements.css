@@ -84,3 +84,8 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline:2px so
  .holo::before { display:none; }
  .hero__scroll-line { animation:none; }
 }
+
+/* Verified on the live desktop and mobile layouts. */
+.hero__intro { padding:1.5rem .5rem; }
+.hero__intro::before { content:""; position:absolute; inset:-.5rem 0; z-index:-1; background:linear-gradient(180deg,transparent,rgba(1,0,0,.85) 24%,rgba(1,0,0,.85) 78%,transparent); }
+@media(max-width:760px) { .pg__hud,.pg__scramble { display:none; } }

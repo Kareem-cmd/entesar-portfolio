@@ -37,7 +37,133 @@
       "assets/projects/arkan/29.jpg",
       "assets/projects/arkan/30.jpg",
       "assets/projects/arkan/31.jpg"
-    ]
+    ],
+    "dimensions": {
+      "assets/projects/arkan/01.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/02.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/03.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/04.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/05.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/06.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/07.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/08.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/09.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/10.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/11.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/12.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/13.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/14.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/15.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/16.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/17.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/18.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/19.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/20.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/21.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/22.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/23.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/24.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/25.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/26.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/27.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/28.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/29.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/30.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/arkan/31.jpg": [
+        1600,
+        667
+      ]
+    }
   },
   {
     "slug": "gym-glow",
@@ -86,7 +212,169 @@
       "assets/projects/gym-glow/38.jpg",
       "assets/projects/gym-glow/39.jpg",
       "assets/projects/gym-glow/40.jpg"
-    ]
+    ],
+    "dimensions": {
+      "assets/projects/gym-glow/01.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/02.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/03.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/04.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/05.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/06.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/07.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/08.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/09.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/10.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/11.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/12.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/13.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/14.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/15.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/16.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/17.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/18.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/19.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/20.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/21.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/22.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/23.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/24.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/25.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/26.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/27.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/gym-glow/28.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/29.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/30.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/31.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/32.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/33.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/34.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/35.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/36.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/37.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/38.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/gym-glow/39.jpg": [
+        1084,
+        1454
+      ],
+      "assets/projects/gym-glow/40.jpg": [
+        1084,
+        1454
+      ]
+    }
   },
   {
     "slug": "chick",
@@ -107,7 +395,57 @@
       "assets/projects/chick/10.jpg",
       "assets/projects/chick/11.jpg",
       "assets/projects/chick/12.jpg"
-    ]
+    ],
+    "dimensions": {
+      "assets/projects/chick/01.jpg": [
+        1600,
+        900
+      ],
+      "assets/projects/chick/02.jpg": [
+        1600,
+        900
+      ],
+      "assets/projects/chick/03.jpg": [
+        1600,
+        900
+      ],
+      "assets/projects/chick/04.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/05.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/06.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/07.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/08.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/09.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/10.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/11.jpg": [
+        1080,
+        1080
+      ],
+      "assets/projects/chick/12.jpg": [
+        1080,
+        1080
+      ]
+    }
   },
   {
     "slug": "sera",
@@ -129,7 +467,61 @@
       "assets/projects/sera/11.jpg",
       "assets/projects/sera/12.jpg",
       "assets/projects/sera/13.jpg"
-    ]
+    ],
+    "dimensions": {
+      "assets/projects/sera/01.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/sera/02.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/sera/03.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/sera/04.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/sera/05.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/sera/06.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/sera/07.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/sera/08.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/sera/09.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/sera/10.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/sera/11.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/sera/12.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/sera/13.jpg": [
+        1080,
+        1450
+      ]
+    }
   },
   {
     "slug": "ghazy",
@@ -153,7 +545,69 @@
       "assets/projects/ghazy/13.jpg",
       "assets/projects/ghazy/14.jpg",
       "assets/projects/ghazy/15.jpg"
-    ]
+    ],
+    "dimensions": {
+      "assets/projects/ghazy/01.jpg": [
+        1145,
+        1430
+      ],
+      "assets/projects/ghazy/02.jpg": [
+        1145,
+        1430
+      ],
+      "assets/projects/ghazy/03.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/04.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/05.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/06.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/07.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/08.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/09.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/10.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/11.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/12.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/13.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/14.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/ghazy/15.jpg": [
+        1080,
+        1450
+      ]
+    }
   },
   {
     "slug": "albaida",
@@ -190,7 +644,121 @@
       "assets/projects/albaida/26.jpg",
       "assets/projects/albaida/27.jpg",
       "assets/projects/albaida/28.jpg"
-    ]
+    ],
+    "dimensions": {
+      "assets/projects/albaida/01.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/02.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/03.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/04.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/05.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/06.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/07.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/08.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/09.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/10.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/11.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/12.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/13.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/14.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/15.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/16.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/17.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/18.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/19.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/20.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/21.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/22.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/23.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/24.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/25.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/26.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/27.jpg": [
+        1080,
+        1450
+      ],
+      "assets/projects/albaida/28.jpg": [
+        1080,
+        1450
+      ]
+    }
   },
   {
     "slug": "earthy-center",
@@ -204,6 +772,28 @@
       "assets/projects/earthy-center/03.jpg",
       "assets/projects/earthy-center/04.jpg",
       "assets/projects/earthy-center/05.jpg"
-    ]
+    ],
+    "dimensions": {
+      "assets/projects/earthy-center/01.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/earthy-center/02.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/earthy-center/03.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/earthy-center/04.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/earthy-center/05.jpg": [
+        1080,
+        1350
+      ]
+    }
   }
 ]
