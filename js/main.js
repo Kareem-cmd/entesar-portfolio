@@ -49,52 +49,18 @@ try {
   document.documentElement.classList.add("no-webgl");
 }
 
-/* — Intro: preloader counter → cat assembles from the dark → HUD — */
-const pre = document.querySelector("#preloader");
-const counter = pre ? pre.querySelector(".count") : null;
+/* Logo loading is handled independently by site.js. */
 let introRan = false;
-
 function runIntro() {
-  if (introRan || window.__introExpired) return;
-  introRan = true;
-  document.documentElement.classList.add("intro-running");
-  setTimeout(() => document.documentElement.classList.remove("intro-running"), 2500);
-
-  const tl = gsap.timeline();
-  const o = { v: 0 };
-
-  // cycling loader messages (à la yutaabe's "MEOW MEOW")
-  const msgEl = pre ? pre.querySelector(".preloader__msg") : null;
-  const MSGS = ["Begins in the dark", "Sharpening the gaze", "Femme fatale", "Designed by instinct"];
-  let mi = 0;
-  const msgTimer = (!reduced && msgEl)
-    ? setInterval(() => { mi = (mi + 1) % MSGS.length; msgEl.textContent = MSGS[mi]; }, 520)
-    : null;
-
-  // 1 — count up in the dark
-  tl.to(o, {
-    v: 100,
-    duration: reduced ? 0 : 0.65,
-    ease: "power1.inOut",
-    onUpdate: () => { if (counter) counter.textContent = String(Math.round(o.v)).padStart(3, "0"); },
-  });
-
-  // 2 — the dark lifts to an extreme close-up of the glowing eye
-  tl.to(pre, {
-    autoAlpha: 0, duration: 0.9, ease: "power2.inOut",
-    onStart: () => { if (msgTimer) clearInterval(msgTimer); },
-  }, reduced ? ">" : "-=0.25");
-
-  // 3 — pull back from the eye to reveal the whole cat
-  if (cat && !reduced) {
-    tl.to(cat.uScale, { value: 1.04, duration: 1.5, ease: "power3.inOut" }, "-=0.5");
-    tl.to(cat.uOffset.value, { 0: 0.0, 1: 0.0, duration: 1.5, ease: "power3.inOut" }, "<");
-  }
-
-  // 4 — HUD settles in
-  tl.from(".hud [data-hud], .hero__scroll", {
-    autoAlpha: 0, yPercent: 40, stagger: 0.08, duration: 0.9, ease: "expo.out",
-  }, reduced ? ">" : "-=1.5");
+ if (introRan) return;
+ if (document.documentElement.classList.contains('logo-loading')) {
+  document.addEventListener('entesar:ready', runIntro, {once:true}); return;
+ }
+ introRan=true;
+ if(cat && !reduced) {
+  gsap.to(cat.uScale,{value:1.04,duration:1.5,ease:'power3.inOut'});
+  gsap.to(cat.uOffset.value,{0:0,1:0,duration:1.5,ease:'power3.inOut'});
+ }
 }
 
 // only start the intro once the page is actually visible, so it never
@@ -114,8 +80,6 @@ if (cat) {
   const trigger = () => whenVisible(runIntro);
   cat.onReady(() => { document.documentElement.classList.add("webgl-ready"); trigger(); });
   setTimeout(trigger, 1800); // safety net if the load event is missed
-} else {
-  if (pre) gsap.to(pre, { autoAlpha: 0, duration: 0.6 });
 }
 
 /* — Scroll reveals (outside the hero) — */

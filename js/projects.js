@@ -6,7 +6,7 @@ export function initProjects() {
  let manifest=null,previousFocus=null,activeSlug=null,request=0,background=[];
  async function load(){
   if(manifest)return manifest;
-  const r=await fetch('assets/projects/manifest.json',{signal:AbortSignal.timeout(10000)});
+  const r=await fetch('assets/projects/manifest.json?v=projects-3',{signal:AbortSignal.timeout(10000)});
   if(!r.ok)throw new Error('Unavailable'); const value=await r.json();
   if(!Array.isArray(value))throw new Error('Invalid data'); return manifest=value;
  }

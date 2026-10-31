@@ -795,5 +795,789 @@
         1350
       ]
     }
+  },
+  {
+    "slug": "al-madar",
+    "documents": [
+      {
+        "src": "assets/projects/al-madar/document-1.pdf",
+        "label": "Project document 1 (PDF)"
+      },
+      {
+        "src": "assets/projects/al-madar/document-2.pdf",
+        "label": "Project document 2 (PDF)"
+      }
+    ],
+    "dimensions": {
+      "assets/projects/al-madar/010.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/005.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/003.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/001.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/004.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/006.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/002.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/007.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/009.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/al-madar/008.jpg": [
+        1080,
+        1350
+      ]
+    },
+    "name": "المدار",
+    "cat": "Selected design work",
+    "cover": "assets/works/al-madar.jpg",
+    "count": 10,
+    "images": [
+      "assets/projects/al-madar/001.jpg",
+      "assets/projects/al-madar/002.jpg",
+      "assets/projects/al-madar/003.jpg",
+      "assets/projects/al-madar/004.jpg",
+      "assets/projects/al-madar/005.jpg",
+      "assets/projects/al-madar/006.jpg",
+      "assets/projects/al-madar/007.jpg",
+      "assets/projects/al-madar/008.jpg",
+      "assets/projects/al-madar/009.jpg",
+      "assets/projects/al-madar/010.jpg"
+    ]
+  },
+  {
+    "slug": "easecare",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/easecare/007.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/easecare/011.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/easecare/016.jpg": [
+        1100,
+        400
+      ],
+      "assets/projects/easecare/009.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/easecare/015.jpg": [
+        1100,
+        400
+      ],
+      "assets/projects/easecare/005.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/easecare/004.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/easecare/008.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/easecare/014.jpg": [
+        1100,
+        400
+      ],
+      "assets/projects/easecare/001.jpg": [
+        1200,
+        700
+      ],
+      "assets/projects/easecare/010.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/easecare/013.jpg": [
+        1100,
+        400
+      ],
+      "assets/projects/easecare/002.jpg": [
+        1200,
+        700
+      ],
+      "assets/projects/easecare/003.jpg": [
+        1080,
+        1440
+      ],
+      "assets/projects/easecare/006.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/easecare/012.jpg": [
+        1100,
+        400
+      ]
+    },
+    "name": "ايزكير",
+    "cat": "Selected design work",
+    "cover": "assets/works/easecare.jpg",
+    "count": 16,
+    "images": [
+      "assets/projects/easecare/001.jpg",
+      "assets/projects/easecare/002.jpg",
+      "assets/projects/easecare/003.jpg",
+      "assets/projects/easecare/011.jpg",
+      "assets/projects/easecare/012.jpg",
+      "assets/projects/easecare/013.jpg",
+      "assets/projects/easecare/014.jpg",
+      "assets/projects/easecare/015.jpg",
+      "assets/projects/easecare/016.jpg",
+      "assets/projects/easecare/004.jpg",
+      "assets/projects/easecare/005.jpg",
+      "assets/projects/easecare/006.jpg",
+      "assets/projects/easecare/007.jpg",
+      "assets/projects/easecare/008.jpg",
+      "assets/projects/easecare/009.jpg",
+      "assets/projects/easecare/010.jpg"
+    ]
+  },
+  {
+    "slug": "temia",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/temia/012.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/011.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/018.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/010.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/017.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/020.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/003.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/002.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/001.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/013.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/008.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/005.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/015.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/021.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/009.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/014.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/004.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/016.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/006.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/019.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/temia/007.jpg": [
+        1080,
+        1350
+      ]
+    },
+    "name": "تيميا",
+    "cat": "Selected design work",
+    "cover": "assets/works/temia.jpg",
+    "count": 21,
+    "images": [
+      "assets/projects/temia/001.jpg",
+      "assets/projects/temia/002.jpg",
+      "assets/projects/temia/003.jpg",
+      "assets/projects/temia/016.jpg",
+      "assets/projects/temia/017.jpg",
+      "assets/projects/temia/018.jpg",
+      "assets/projects/temia/019.jpg",
+      "assets/projects/temia/020.jpg",
+      "assets/projects/temia/021.jpg",
+      "assets/projects/temia/004.jpg",
+      "assets/projects/temia/005.jpg",
+      "assets/projects/temia/006.jpg",
+      "assets/projects/temia/007.jpg",
+      "assets/projects/temia/008.jpg",
+      "assets/projects/temia/009.jpg",
+      "assets/projects/temia/010.jpg",
+      "assets/projects/temia/011.jpg",
+      "assets/projects/temia/012.jpg",
+      "assets/projects/temia/013.jpg",
+      "assets/projects/temia/014.jpg",
+      "assets/projects/temia/015.jpg"
+    ]
+  },
+  {
+    "slug": "jayaad",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/jayaad/009.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/003.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/002.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/008.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/005.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/004.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/007.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/010.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/006.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/jayaad/001.jpg": [
+        1080,
+        1350
+      ]
+    },
+    "name": "جياد",
+    "cat": "Selected design work",
+    "cover": "assets/works/jayaad.jpg",
+    "count": 10,
+    "images": [
+      "assets/projects/jayaad/001.jpg",
+      "assets/projects/jayaad/002.jpg",
+      "assets/projects/jayaad/003.jpg",
+      "assets/projects/jayaad/004.jpg",
+      "assets/projects/jayaad/005.jpg",
+      "assets/projects/jayaad/006.jpg",
+      "assets/projects/jayaad/007.jpg",
+      "assets/projects/jayaad/008.jpg",
+      "assets/projects/jayaad/009.jpg",
+      "assets/projects/jayaad/010.jpg"
+    ]
+  },
+  {
+    "slug": "deghidy",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/deghidy/018.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/023.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/010.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/008.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/028.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/025.jpg": [
+        1,
+        1
+      ],
+      "assets/projects/deghidy/002.jpg": [
+        1920,
+        1080
+      ],
+      "assets/projects/deghidy/015.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/032.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/012.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/006.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/030.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/021.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/024.jpg": [
+        1,
+        1
+      ],
+      "assets/projects/deghidy/009.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/005.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/004.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/001.jpg": [
+        1,
+        1
+      ],
+      "assets/projects/deghidy/011.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/035.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/022.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/013.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/014.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/003.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/017.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/033.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/027.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/020.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/019.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/007.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/029.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/031.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/016.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/034.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/deghidy/026.jpg": [
+        1080,
+        1350
+      ]
+    },
+    "name": "دغيدي",
+    "cat": "Selected design work",
+    "cover": "assets/works/deghidy.jpg",
+    "count": 32,
+    "images": [
+      "assets/projects/deghidy/030.jpg",
+      "assets/projects/deghidy/031.jpg",
+      "assets/projects/deghidy/032.jpg",
+      "assets/projects/deghidy/033.jpg",
+      "assets/projects/deghidy/034.jpg",
+      "assets/projects/deghidy/035.jpg",
+      "assets/projects/deghidy/002.jpg",
+      "assets/projects/deghidy/026.jpg",
+      "assets/projects/deghidy/027.jpg",
+      "assets/projects/deghidy/028.jpg",
+      "assets/projects/deghidy/029.jpg",
+      "assets/projects/deghidy/004.jpg",
+      "assets/projects/deghidy/008.jpg",
+      "assets/projects/deghidy/011.jpg",
+      "assets/projects/deghidy/013.jpg",
+      "assets/projects/deghidy/015.jpg",
+      "assets/projects/deghidy/005.jpg",
+      "assets/projects/deghidy/007.jpg",
+      "assets/projects/deghidy/009.jpg",
+      "assets/projects/deghidy/014.jpg",
+      "assets/projects/deghidy/016.jpg",
+      "assets/projects/deghidy/003.jpg",
+      "assets/projects/deghidy/006.jpg",
+      "assets/projects/deghidy/010.jpg",
+      "assets/projects/deghidy/012.jpg",
+      "assets/projects/deghidy/017.jpg",
+      "assets/projects/deghidy/018.jpg",
+      "assets/projects/deghidy/019.jpg",
+      "assets/projects/deghidy/020.jpg",
+      "assets/projects/deghidy/021.jpg",
+      "assets/projects/deghidy/022.jpg",
+      "assets/projects/deghidy/023.jpg"
+    ]
+  },
+  {
+    "slug": "sky",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/sky/004.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/017.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/013.jpg": [
+        1,
+        1
+      ],
+      "assets/projects/sky/016.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/001.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/007.jpg": [
+        1920,
+        1080
+      ],
+      "assets/projects/sky/019.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/008.jpg": [
+        1920,
+        1080
+      ],
+      "assets/projects/sky/015.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/018.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/005.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/012.jpg": [
+        1920,
+        1080
+      ],
+      "assets/projects/sky/003.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/014.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/006.jpg": [
+        1024,
+        1280
+      ],
+      "assets/projects/sky/011.jpg": [
+        1920,
+        1080
+      ],
+      "assets/projects/sky/002.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/sky/010.jpg": [
+        1920,
+        1080
+      ],
+      "assets/projects/sky/009.jpg": [
+        1920,
+        1080
+      ]
+    },
+    "name": "سكاي",
+    "cat": "Selected design work",
+    "cover": "assets/works/sky.jpg",
+    "count": 19,
+    "images": [
+      "assets/projects/sky/001.jpg",
+      "assets/projects/sky/002.jpg",
+      "assets/projects/sky/003.jpg",
+      "assets/projects/sky/004.jpg",
+      "assets/projects/sky/005.jpg",
+      "assets/projects/sky/006.jpg",
+      "assets/projects/sky/017.jpg",
+      "assets/projects/sky/018.jpg",
+      "assets/projects/sky/019.jpg",
+      "assets/projects/sky/013.jpg",
+      "assets/projects/sky/014.jpg",
+      "assets/projects/sky/015.jpg",
+      "assets/projects/sky/016.jpg",
+      "assets/projects/sky/007.jpg",
+      "assets/projects/sky/008.jpg",
+      "assets/projects/sky/009.jpg",
+      "assets/projects/sky/010.jpg",
+      "assets/projects/sky/011.jpg",
+      "assets/projects/sky/012.jpg"
+    ]
+  },
+  {
+    "slug": "cristo",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/cristo/003.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/cristo/002.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/cristo/001.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/cristo/004.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/cristo/005.jpg": [
+        1080,
+        1350
+      ]
+    },
+    "name": "كريستو",
+    "cat": "Selected design work",
+    "cover": "assets/works/cristo.jpg",
+    "count": 5,
+    "images": [
+      "assets/projects/cristo/001.jpg",
+      "assets/projects/cristo/002.jpg",
+      "assets/projects/cristo/003.jpg",
+      "assets/projects/cristo/004.jpg",
+      "assets/projects/cristo/005.jpg"
+    ]
+  },
+  {
+    "slug": "mandi",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/mandi/005.jpg": [
+        1080,
+        1920
+      ],
+      "assets/projects/mandi/002.jpg": [
+        1080,
+        1920
+      ],
+      "assets/projects/mandi/003.jpg": [
+        1080,
+        1920
+      ],
+      "assets/projects/mandi/007.jpg": [
+        1080,
+        1920
+      ],
+      "assets/projects/mandi/001.jpg": [
+        1080,
+        1920
+      ],
+      "assets/projects/mandi/009.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/mandi/008.jpg": [
+        1080,
+        1920
+      ],
+      "assets/projects/mandi/006.jpg": [
+        1080,
+        1920
+      ],
+      "assets/projects/mandi/010.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/mandi/004.jpg": [
+        1080,
+        1920
+      ]
+    },
+    "name": "مندي",
+    "cat": "Selected design work",
+    "cover": "assets/works/mandi.jpg",
+    "count": 10,
+    "images": [
+      "assets/projects/mandi/001.jpg",
+      "assets/projects/mandi/002.jpg",
+      "assets/projects/mandi/003.jpg",
+      "assets/projects/mandi/004.jpg",
+      "assets/projects/mandi/005.jpg",
+      "assets/projects/mandi/006.jpg",
+      "assets/projects/mandi/007.jpg",
+      "assets/projects/mandi/008.jpg",
+      "assets/projects/mandi/009.jpg",
+      "assets/projects/mandi/010.jpg"
+    ]
+  },
+  {
+    "slug": "nawajiz",
+    "documents": [],
+    "dimensions": {
+      "assets/projects/nawajiz/006.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/nawajiz/003.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/nawajiz/001.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/nawajiz/002.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/nawajiz/004.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/nawajiz/007.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/nawajiz/005.jpg": [
+        1080,
+        1350
+      ],
+      "assets/projects/nawajiz/008.jpg": [
+        1080,
+        1350
+      ]
+    },
+    "name": "نواجز",
+    "cat": "Selected design work",
+    "cover": "assets/works/nawajiz.jpg",
+    "count": 8,
+    "images": [
+      "assets/projects/nawajiz/001.jpg",
+      "assets/projects/nawajiz/002.jpg",
+      "assets/projects/nawajiz/003.jpg",
+      "assets/projects/nawajiz/004.jpg",
+      "assets/projects/nawajiz/005.jpg",
+      "assets/projects/nawajiz/006.jpg",
+      "assets/projects/nawajiz/007.jpg",
+      "assets/projects/nawajiz/008.jpg"
+    ]
   }
 ]

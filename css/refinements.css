@@ -89,3 +89,16 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible { outline:2px so
 .hero__intro { padding:1.5rem .5rem; }
 .hero__intro::before { content:""; position:absolute; inset:-.5rem 0; z-index:-1; background:linear-gradient(180deg,transparent,rgba(1,0,0,.85) 24%,rgba(1,0,0,.85) 78%,transparent); }
 @media(max-width:760px) { .pg__hud,.pg__scramble { display:none; } }
+
+/* Logo introduction with an independent, bounded lifecycle. */
+.brand-preloader{position:fixed;inset:0;z-index:20000;background:var(--noir);display:grid;place-items:center;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .35s ease,visibility .35s;}
+.logo-loading .brand-preloader{opacity:1;visibility:visible;}
+.brand-preloader__inner{display:flex;flex-direction:column;align-items:center;width:min(72vw,400px);gap:1.4rem;}
+.brand-preloader__eye{width:100px;height:70px;object-fit:contain;}
+.brand-preloader__wordmark{width:100%;height:auto;}
+.brand-preloader span{font-family:var(--font-mono);font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--text-dim);}
+.brand-preloader i{width:80px;height:1px;background:var(--accent-bright);transform-origin:left;animation:logo-breathe 1.4s ease-in-out infinite alternate;}
+@keyframes logo-breathe{from{transform:scaleX(.2);opacity:.35}to{transform:scaleX(1);opacity:1}}
+.project-documents{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.5rem;}
+.project-documents a{padding:.7rem 0;text-decoration:underline;text-underline-offset:5px;min-height:44px;}
+@media(prefers-reduced-motion:reduce){.brand-preloader{transition:none}.brand-preloader i{animation:none}}

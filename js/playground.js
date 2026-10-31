@@ -23,7 +23,7 @@ const countEl  = $('[data-count]');
    1 · Data — fetch manifest, flatten + round-robin interleave
    ------------------------------------------------------------ */
 async function loadImages() {
-  const res = await fetch('assets/projects/manifest.json');
+  const res = await fetch('assets/projects/manifest.json?v=projects-3');
   if (!res.ok) throw new Error(`manifest ${res.status}`);
   const projects = await res.json();
 
